@@ -1,0 +1,250 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Awero.ng</title>
+  <style >
+    body{
+      /* background: rgba(12, 50, 76, 0.8); */
+      background-image: url(cw2.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .coolTitle {
+      margin-top: 30px;
+      text-align: center;
+      font-family: cursive;
+      font-size: 40px;
+      transform: skewY(-10deg);
+      letter-spacing: 4px;
+      word-spacing: -8px;
+      color: tomato;
+      text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick, -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick, -30px 20px 40px dimgray;
+    }
+    .celeb {
+      margin-top: 10px;
+      text-align: center;
+      font-family: cursive;
+      font-size: 40px;
+      transform: skewY(10deg);
+      letter-spacing: 4px;
+      word-spacing: -8px;
+      color: green;
+      text-shadow: -1px -1px 0 yellowgreen, -2px -2px 0 yellowgreen, -3px -3px 0 yellowgreen, -4px -4px 0 yellowgreen, -5px -5px 0 yellowgreen, -6px -6px 0 yellowgreen, -7px -7px 0 yellowgreen, -8px -8px 0 yellowgreen, -30px 20px 40px darkgreen;
+    }
+   
+    .sect{
+      margin-top: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: auto;
+    }
+    .textSection{
+      width: 300px;
+      line-height: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: poppins;
+      margin-right: -50px;
+    }
+    .head{
+      color: aqua;
+      text-shadow: -2px -3px 0 black;
+    }
+    .content{
+      font-size: 21px;
+      margin-bottom: 10px;
+      font-weight: bold;
+    }
+    .damsel{
+      font-family: cursive;
+    }
+    .imgHolder{
+      margin-left: 50px;
+      padding-left: 20px;
+    }
+    .bukky{
+      margin-top: 20px;
+      text-align: center;
+      font-family: cursive;
+      font-size: 40px;
+      transform: skewX(10deg);
+      letter-spacing: 4px;
+      word-spacing: -8px;
+      color: white;
+      text-shadow: -1px -1px 0 brown, -2px -2px 0 brown, -3px -3px 0 brown, -4px -4px 0 brown, -5px -5px 0 brown, -6px -6px 0 brown, -7px -7px 0 brown, -8px -8px 0 brown, -30px 20px 40px lightslategray;
+    }
+    .poem{
+      display: flex;
+      flex-direction: column;
+      width: 300px;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+      padding-top: 20px;
+      padding-bottom: 40px;
+      border-radius: 10px;
+      border: 2px solid darkcyan;
+      box-shadow: 2px 2px 2px 0 lightblue;
+    }
+    .palm{
+      font-family: poppins;
+      font-style: italic;
+      margin-bottom: 15px;
+      font-size: 26px;
+      color: #9c2e26;
+      font-weight: bold;
+      text-shadow: 2px 2px 0 white;
+    }
+    .myPoem{
+      font-family: cursive;
+      font-weight: bold;
+    }
+    @media Screen and (max-width: 768px){
+      body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-image: url(cw3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .coolTitle {
+      margin-top: 25px;
+      text-align: center;
+      font-family: cursive;
+      font-size: 30px;
+      transform: skewY(-10deg);
+      letter-spacing: 4px;
+      word-spacing: -8px;
+      color: green;
+      text-shadow: -1px -1px 0 yellowgreen, -2px -2px 0 yellowgreen, -3px -3px 0 yellowgreen, -4px -4px 0 yellowgreen, -5px -5px 0 yellowgreen, -6px -6px 0 yellowgreen, -7px -7px 0 yellowgreen, -8px -8px 0 yellowgreen, -30px 20px 40px dimgray;
+    }
+    .celeb {
+      margin-top: 10px;
+      text-align: center;
+      font-family: cursive;
+      font-size: 40px;
+      transform: skewY(10deg);
+      letter-spacing: 4px;
+      word-spacing: -8px;
+      color: tomato;
+      text-shadow: -1px -1px 0 firebrick, -2px -2px 0 firebrick, -3px -3px 0 firebrick, -4px -4px 0 firebrick, -5px -5px 0 firebrick, -6px -6px 0 firebrick, -7px -7px 0 firebrick, -8px -8px 0 firebrick, -30px 20px 40px darkgreen;
+    }
+    .sect{
+      margin-top: 60px;
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      justify-content: space-evenly;
+      width: auto;
+    }
+    .textSection{
+      width: 300px;
+      line-height: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-family: poppins;
+    }
+    .imgHolder{
+      margin-left: 0;
+      padding-left: 0;
+    }
+    .content{
+      font-size: 18px;
+      font-family: poppins;
+      font-weight: bold;
+    }
+    .damsel{
+      padding: 10px;
+    }
+    .head{
+      color: aqua;
+      text-shadow: -2px -3px 0 green;
+    }
+    .palm{
+      font-family: poppins;
+      font-style: italic;
+      margin-bottom: 15px;
+      font-size: 26px;
+      color: #9c2e26;
+      font-weight: bold;
+      text-shadow: 2px 2px 0 lightblue;
+    }
+    .bukky{
+      margin-top: 20px;
+      text-align: center;
+      font-family: cursive;
+      font-size: 30px;
+      transform: skewX(10deg);
+      letter-spacing: 3px;
+      word-spacing: -7px;
+      color: #82ecff;
+      text-shadow: -1px -1px 0 brown, -2px -2px 0 brown, -3px -3px 0 brown, -4px -4px 0 brown, -5px -5px 0 brown, -6px -6px 0 brown, -7px -7px 0 brown, -8px -8px 0 brown, -30px 20px 40px lightslategray;
+    }
+    }
+  </style>
+</head>
+<body>
+  <div class="coolTitle">Awero Mi</div>
+  <div class="celeb">Happy 6th Month</div>
+  <div class="sect">
+    <div class="textSection">
+      <h1 class="head">Awero Mi</h1>
+      <div class="content">A little description of Awero</div>
+      <div class="damsel">
+         Awero is a damsel, a Queen that took beauty from where it was housed, Awelewa as in yoruba decent, meaning the beautiful one. She is Gorgeous, Smart, Intelligent.
+         She is a support anyone could ever dreamt of. A genius and Iron Lady, Forever will you be remembered for all you do
+         You are the best. So short of words, on this sixth moon of the amazing journey. You were always there and you still are, you have made me think of possibilities in times of challenges.
+         Am always happy and comfortable with you and when am around you I find peace.
+        </div>
+      </div>
+      <div class="imgHolder"><img src="yinkami.png" alt="an Image of her" width="280px" height="360px"></div>
+  </div>
+  <div class="bukky">JAJI OLAYINKA BUKOLA SALAAMAH (JOBS)</div>
+  <div class="Poem">
+    <div class="palm">Dedicated to You</div>
+    <div class="myPoem">
+      What a reflection it is, stealing<br>
+      back in time, how it all begins<br>
+      for all have been seeing are blessings,<br>
+      praising the Almighty and chanting<br><br>
+      The movement of time wows and floors me,<br>
+      like it began, wish is, it be eternally,<br>
+      counting in moons, this is the <b>sixth</b><br>
+      of meeting with great personality and thee<br><br>
+      What more can I say but thanks<br>
+      from the transition of me to me<br>
+      lost by me and found by thee<br>
+      with a great deal of it being ours <br><br>
+      Being through hills, up and down<br>
+      Climbed the mountains of emotions<br>
+      even at it peak I still demand for more<br>
+      but at the feet of your feels, I can <br>
+      live on and on, not craving for more<br><br>
+      If forever is a game, I'd be in the mace<br>
+      not wanting to lose will be my aim <br>
+      I will do it all over again and as same<br>
+      until the game of forever becomes you<br><br>
+      When life becomes once to live<br>
+      Leaving you is not to be<br>
+      a reality of a day to see<br>
+      Too much a sacrifice is that to give<br>
+      cos, life and you are gift<br><br>
+      More happy moment I wish ahead<br>
+      on the journey and our movement<br>
+      if time can only be stalled <br>  
+      Let it be within your arms, on and on
+    </div>
+  </div>
+</body>
+</html>
